@@ -7,8 +7,6 @@ var bodyParser = require('body-parser');
 
 //Required
 var admin = require('./routes/admin');
-var miplataformaCore = require('./routes/miplataforma-core/session');
-var listaValor = require('./routes/lista-valor/lista-valor');
 var mock = require('./routes/mock/mock');
 var apiMock = require('./routes/api-mock/api-mock');
 var home = require('./routes/admin');
@@ -32,8 +30,6 @@ app.use(express.static(path.join(__dirname, 'node_modules')));
 //Routes
 app.use('/admin', admin);
 app.use('/api/mocks', apiMock);
-//app.use('/miplataforma-core', miplataformaCore);
-//app.use('/miplataforma/ficha-cliente-utilidades-rest/common/datos-generales', listaValor);
 //app.use('/', home);
 
 app.use('/', mock);
