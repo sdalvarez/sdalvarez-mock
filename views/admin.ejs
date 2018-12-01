@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%= title %> | Admin</title>
+
+  <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./stylesheets/style.css">
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">MOCK Inception</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/admin">Admin <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+  <input type="hidden" value="<%= addr %>" id="ip-address"/>
+  <div ui-view></div>
+
+  <!-- Scripts -->
+  <div>
+
+    <script src="./jquery/dist/jquery.min.js"></script>
+    <script src="./lib/popperjs/popper.min.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Angular -->
+    <script src="./angular/angular.min.js"></script>
+    <script src="./angular-route/angular-route.min.js"></script>
+    <script src="./angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="./angular-messages/angular-messages.min.js"></script>
+
+
+    <!-- Mock -->
+    <script src="./app/components/app_module.js"></script>
+    <script src="./app/components/app_config.js"></script>
+    <script src="./app/components/app_constant.js"></script>
+
+    <script src="./app/components/mock/mock_module.js"></script>
+    <script src="./app/components/mock/mock_controller.js"></script>
+    <script src="./app/components/mock/mock_service.js"></script>
+    <script src="./app/components/mock/mock_factory.js"></script>
+
+
+
+
+  </div>
+</body>
+
+</html>

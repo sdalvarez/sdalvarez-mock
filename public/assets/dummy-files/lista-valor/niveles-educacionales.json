@@ -1,0 +1,41 @@
+[{
+        "codigo": "1-19W3J-2690",
+        "valor": "Educacion Basica"
+    },
+    {
+        "codigo": "1-19W3J-929",
+        "valor": "Educacion Media"
+    },
+    {
+        "codigo": "1-19W3J-2174",
+        "valor": "Sin Estudios"
+    },
+    {
+        "codigo": "1-6T-1267",
+        "valor": "Sin Informacion"
+    },
+    {
+        "codigo": "1-19W3J-928",
+        "valor": "Tecnico"
+    },
+    {
+        "codigo": "1-19W3J-1826",
+        "valor": "Tecnico Profesional"
+    },
+    {
+        "codigo": "1-19W3J-1828",
+        "valor": "Univ. No Trad. Hasta 4 Anos"
+    },
+    {
+        "codigo": "1-19W3J-1829",
+        "valor": "Univ. No Trad. Mas De 4 Anos"
+    },
+    {
+        "codigo": "1-19W3J-1827",
+        "valor": "Univ. Trad. Hasta 4 Anos"
+    },
+    {
+        "codigo": "1-19W3J-1825",
+        "valor": "Univ. Trad. Mas De 4 Anos"
+    }
+]

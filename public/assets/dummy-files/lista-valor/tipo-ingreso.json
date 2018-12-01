@@ -1,0 +1,37 @@
+[{
+        "codigo": "0VFLESN-IU7I@",
+        "valor": "Arriendos Percibidos (Var)"
+    },
+    {
+        "codigo": "0VFLESN-IU6S@",
+        "valor": "Bonos (Var)"
+    },
+    {
+        "codigo": "0VFLESN-IU6U@",
+        "valor": "Comisiones (Var)"
+    },
+    {
+        "codigo": "0VFLESN-IU76@",
+        "valor": "Honorarios (Var)"
+    },
+    {
+        "codigo": "0VFLESN-IU74@",
+        "valor": "Horas Extra (Var)"
+    },
+    {
+        "codigo": "0VFLESN-IU70@",
+        "valor": "Ingresos Liquidos (Fijo)"
+    },
+    {
+        "codigo": "0VFLESN-IU72@",
+        "valor": "Otros Ingresos"
+    },
+    {
+        "codigo": "0VFLESN-IU6Q@",
+        "valor": "Pension (Fijo)"
+    },
+    {
+        "codigo": "0VFLESN-IU7K@",
+        "valor": "Retiros (Var)"
+    }
+]

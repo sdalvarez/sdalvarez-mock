@@ -1,0 +1,25 @@
+
+
+
+.bg-purple {
+  background-color: #6f42c1;
+}
+
+.bg-green{
+  background-color: rgba(8, 169, 14, 0.03);
+}
+
+.bg-red{
+  background-color: rgba(247, 6, 6, 0.03);
+}
+
+.pixel-input{
+    width: 1px;
+    height: 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}

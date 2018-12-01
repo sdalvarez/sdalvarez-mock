@@ -1,0 +1,46 @@
+[{
+        "codigo": "1-GNIH-350",
+        "valor": "Boleta De Garantia",
+        "alto": "Indirecta"
+    },
+    {
+        "codigo": "1-GNIH-351",
+        "valor": "Carta De Credito",
+        "alto": "Indirecta"
+    },
+    {
+        "codigo": "1-GNIH-352",
+        "valor": "Credito Automotriz",
+        "alto": "Indirecta"
+    },
+    {
+        "codigo": "1-GNIH-354",
+        "valor": "Creditos De Consumo",
+        "alto": "Indirecta"
+    },
+    {
+        "codigo": "1-GNIH-2584",
+        "valor": "Leasing",
+        "alto": "Indirecta"
+    },
+    {
+        "codigo": "1-GNIH-2585",
+        "valor": "Lineas De Credito",
+        "alto": "Directa"
+    },
+    {
+        "codigo": "1-GNIH-353",
+        "valor": "Otras Deudas Directas",
+        "alto": "Directa"
+    },
+    {
+        "codigo": "1-GNIH-3722",
+        "valor": "Otras Deudas Indirectas",
+        "alto": "Indirecta"
+    },
+    {
+        "codigo": "1-GNIH-2583",
+        "valor": "Tarjetas De Credito",
+        "alto": "Directa"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "codigo": "I-BBB",
+        "valor": "Comercial"
+    },
+     {
+        "serialVersionUID": 0,
+        "codigo": "I-AAA",
+        "valor": "Particular"
+      }
+  ]

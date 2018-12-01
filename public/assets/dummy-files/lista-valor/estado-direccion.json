@@ -1,0 +1,21 @@
+[{
+        "codigo": "1-19W3J-2834",
+        "valor": "Válida"
+    },
+    {
+        "codigo": "1-19W3J-2835",
+        "valor": "Invalida"
+    },
+    {
+        "codigo": "1-19W3J-2836",
+        "valor": "No Existe"
+    },
+    {
+        "codigo": "1-19W3J-2837",
+        "valor": "No Corresponde a Comuna"
+    },
+    {
+        "codigo": "1-19W3J-2838",
+        "valor": "Dirección Insuficiente"
+    }
+]

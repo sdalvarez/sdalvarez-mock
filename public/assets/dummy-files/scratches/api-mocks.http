@@ -1,0 +1,34 @@
+###
+GET http://localhost:3003/api/mocks/
+Content-Type: application/json
+Cache-Control: no-cache
+
+###
+POST http://localhost:3003/api/mocks/
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+     "request_method":"get",
+     "path":"/miplataforma",
+     "json":"",
+     "status_code":200,
+     "active":1,
+     "description":"Endpoint de prueba",
+     "content_type":"application/json"
+}
+
+###
+PUT http://localhost:3003/api/mocks/3
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+     "request_method":"get",
+     "path":"/miplataforma-core/",
+     "json":"{}",
+     "status_code":200,
+     "active":1,
+     "description":"Endpoint de prueba editado",
+     "content_type":"application/json"
+}

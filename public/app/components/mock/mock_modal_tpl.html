@@ -1,0 +1,81 @@
+<div class="modal fade" id="mockModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Agregar Mock</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form name="mockForm" ng-submit="mockForm.$valid && vm.save()" novalidate>
+                <input type="hidden" name="id" ng-model="vm.mockModal.id">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="path" class="col-form-label">Path</label>
+                        <input type="text" ng-model="vm.mockModel.path" class="form-control" name="path" placeholder="Ej. /resource-path/resource-name/resource-id"
+                            required>
+                        <div ng-messages="mockForm.path.$error" role="alert">
+                            <p class="text-danger" ng-message="required">El campo es requerido </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="request-method" class="col-form-label">Request Method</label>
+                        <select name="request-method" id="request-method" class="form-control form-control-sm col-md-3" ng-model="vm.mockModel.requestMethod">
+                            <option>GET</option>
+                            <option>POST</option>
+                            <option>PUT</option>
+                            <option>DELETE</option>
+                        </select>
+                        <div ng-messages="mockForm.request-method.$error" role="alert">
+                            <p class="text-danger" ng-message="required">El campo es requerido</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="description" class="col-form-label">Description</label>
+                        <input type="text" ng-model="vm.mockModel.description" class="form-control" name="description" id="description" placeholder="Ej. Mock para los valores"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="content-type" class="col-form-label">Request Type</label>
+                        <select class="form-control form-control-sm col-md-3" ng-model="vm.mockModel.contentType" name="content-type" required>
+                            <option>application/json</option>
+                        </select>
+                        <div ng-messages="mockForm.request-type.$error" role="alert">
+                            <p class="text-danger" ng-message="required">El campo es requerido</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="output" class="col-form-label">Output</label>
+                                <textarea class="form-control" name="output" id="output" class="form-control" ng-model="vm.mockModel.output" placeholder="{'dato':'dato'}"
+                                    required rows="10"></textarea>
+                                <div ng-messages="mockForm.output.$error" role="alert">
+                                    <p class="text-danger" ng-message="required">El campo es requerido</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="response-http-code" class="col-form-label">Response HTTP-Code</label>
+                        <select name="response-http-code" class="form-control form-control-sm col-md-3" ng-model="vm.mockModel.responseHttpCode" required >
+                            <option ng-repeat="option in vm.responseHttpCodeOptions" value="{{option.id}}" ng-selected="option.id == vm.mockModel.responseHttpCode" >{{option.name}}</option>
+                        </select>
+                        <div ng-messages="mockForm.response-http-code.$error" role="alert">
+                            <p class="text-danger" ng-message="required">El campo es requerido</p>
+                        </div>
+                    </div>
+                    <div class="alert" ng-class="vm.alertClass" ng-show="vm.showAlert" role="alert">
+                        <h4 class="alert-heading">{{vm.alertMessageTitle}}</h4>
+                        <p>{{vm.alertMessage}}</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary">
+                            Guardar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
